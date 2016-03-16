@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A9535881C995B7200A1B900 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A9535871C995B7200A1B900 /* main.cpp */; };
+		7A95358F1C995DC300A1B900 /* 260_Single_Number_III.h in Sources */ = {isa = PBXBuildFile; fileRef = 7A95358E1C995DC300A1B900 /* 260_Single_Number_III.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		7A9535841C995B7200A1B900 /* leetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9535871C995B7200A1B900 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7A95358E1C995DC300A1B900 /* 260_Single_Number_III.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 260_Single_Number_III.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				7A9535871C995B7200A1B900 /* main.cpp */,
+				7A95358E1C995DC300A1B900 /* 260_Single_Number_III.h */,
 			);
 			path = leetCode;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A9535881C995B7200A1B900 /* main.cpp in Sources */,
+				7A95358F1C995DC300A1B900 /* 260_Single_Number_III.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
