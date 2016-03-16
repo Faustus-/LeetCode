@@ -7,10 +7,15 @@
 //
 
 #include <iostream>
+
+#include "1_Two_Sum.h"
+
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    cout << "Hello, World!\n";
+    
+    Test t = Test();
+
     return 0;
 }
