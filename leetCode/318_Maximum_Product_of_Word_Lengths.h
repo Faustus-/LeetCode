@@ -60,7 +60,9 @@ public:
         for(int i = 0; i < r - 1; i++){
             for(int j = i + 1; j < r; j++){
                 if ((mask[i] & mask[j]) == 0){
-                    prod = max(prod, static_cast<int>(words[i].size() * words[j].size()));
+                    int p = words[i].size() * words[j].size();
+                    //prod = max(prod, static_cast<int>(words[i].size() * words[j].size()));
+                    prod = prod > p ? prod:p;
                 }
             }
         }
