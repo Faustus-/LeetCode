@@ -46,10 +46,13 @@ public:
         if(r < 2) return 0;
         
         // apply an int variable as a mask to represent whether a character appears in the word.
-        for(vector<string>::iterator it = words.begin(); it != words.end(); it++) {
+        for(int n = 0; n < r; n++){
+            //for(vector<string>::iterator it = words.begin(); it != words.end(); it++) {
             int temp = 0;
-            for(int w = 0; w < (*it).size(); w++) {
-                temp |= (1 << ((*it)[w] - 'a'));
+            for(int w = 0; w < words[n].size(); w++){
+                //for(int w = 0; w < (*it).size(); w++) {
+                //temp |= (1 << ((*it)[w] - 'a'));
+                temp |= (1 << (words[n][w] - 'a'));
             }
             mask.push_back(temp);
         }
