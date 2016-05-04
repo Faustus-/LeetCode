@@ -5,6 +5,17 @@
 //  Created by PengYan on 16/5/4.
 //  Copyright © 2016年 PengYan. All rights reserved.
 //
+//  Descriptions:
+/*
+ Given a digit string, return all possible letter combinations that the number could represent.
+ 
+ A mapping of digit to letters (just like on the telephone buttons) is given below.
+ Input:Digit string "23"
+ Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+ Note:
+ Although the above answer is in lexicographical order, your answer could be in any order you want.
+ */
+
 
 #ifndef _7_Letter_Combinations_of_a_Phone_Number_h
 #define _7_Letter_Combinations_of_a_Phone_Number_h
